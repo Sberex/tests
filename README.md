@@ -1,7 +1,7 @@
 tests
 =====
 
-Common tests for all clients to test against.
+Common tests for all clients.
 
 Do not change test files in folders: 
 * StateTests
