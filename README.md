@@ -1,4 +1,4 @@
-tests   [![Build Status](https://travis-ci.org/ethereum/tests.svg?branch=develop)](https://travis-ci.org/ethereum/tests)
+tests
 =====
 
 Common tests for all clients to test against.
