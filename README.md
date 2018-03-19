@@ -1,7 +1,7 @@
 tests   [![Build Status](https://travis-ci.org/ethereum/tests.svg?branch=develop)](https://travis-ci.org/ethereum/tests)
 =====
 
-Common tests for all clients to test against. See the documentation http://ethereum-tests.readthedocs.io/
+Common tests for all clients to test against.
 
 Do not change test files in folders: 
 * StateTests
@@ -9,9 +9,7 @@ Do not change test files in folders:
 * TransactionTests 
 * VMTests
 
-It is being created by the testFillers which could be found at https://github.com/ethereum/cpp-ethereum/tree/develop/test/tools/jsontests at src folder. The filler specification and wiki are in development so please ask on gitter channel for more details.
-
-If you want to modify a test filler or add a new test please contact @winsvega at https://gitter.im/ethereum/cpp-ethereum
+It is being created by the testFillers. The filler specification and wiki are in development so please ask on gitter channel for more details.
 
 All files should be of the form:
 
@@ -33,8 +31,3 @@ All files should be of the form:
 ```
 
 Arrays are allowed, but don't use them for sets of properties - only use them for data that is clearly a continuous contiguous sequence of values.
-
-Links
------
-
-* [cpp-ethereum guide to generate test cases](https://github.com/ethereum/cpp-ethereum/blob/develop/doc/generating_tests.rst)
